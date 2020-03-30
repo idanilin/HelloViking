@@ -57,13 +57,13 @@
 		2CE6DCC2242CD8300095BE6F /* HelloViking */ = {
 			isa = PBXGroup;
 			children = (
+				2CE6DCCE242CD8350095BE6F /* LaunchScreen.storyboard */,
+				2CE6DCC9242CD8300095BE6F /* Main.storyboard */,
 				2C8AB0AA2431D2D000504A92 /* HelloViking.entitlements */,
 				2CE6DCC3242CD8300095BE6F /* AppDelegate.swift */,
 				2CE6DCC5242CD8300095BE6F /* SceneDelegate.swift */,
 				2CE6DCC7242CD8300095BE6F /* ViewController.swift */,
-				2CE6DCC9242CD8300095BE6F /* Main.storyboard */,
 				2CE6DCCC242CD8350095BE6F /* Assets.xcassets */,
-				2CE6DCCE242CD8350095BE6F /* LaunchScreen.storyboard */,
 				2CE6DCD1242CD8350095BE6F /* Info.plist */,
 			);
 			path = HelloViking;
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJYLXJKAL;
 				INFOPLIST_FILE = HelloViking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LSJYLXJKAL;
 				INFOPLIST_FILE = HelloViking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
