@@ -15,11 +15,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        helloVikingLebel.isHidden = true
+        pushMeButton.layer.cornerRadius = 10
     }
 
 
     @IBAction func pushMePressed() {
+        if helloVikingLebel.isHidden {
+            helloVikingLebel.isHidden = false
+            pushMeButton.setTitle("Clear that", for: .normal)
+        } else {
+            helloVikingLebel.isHidden = true
+            pushMeButton.setTitle("Push me =)", for: .normal)
+        }
     }
 }
 

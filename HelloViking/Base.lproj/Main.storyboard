@@ -21,12 +21,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTt-FN-onG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTt-FN-onG">
                                 <rect key="frame" x="91" y="543" width="193" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="151" id="8cs-6K-XdZ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <state key="normal" title="Push me =)">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -38,10 +35,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nTt-FN-onG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NCf-bx-Rnt"/>
                             <constraint firstItem="3T7-P9-sm4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TiT-v7-KbT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nTt-FN-onG" secondAttribute="bottom" constant="80" id="bbH-Xq-iB8"/>
+                            <constraint firstItem="nTt-FN-onG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="bAc-JU-tZ5"/>
                             <constraint firstItem="3T7-P9-sm4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="eeK-xb-on1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nTt-FN-onG" secondAttribute="bottom" constant="80" id="g5N-q3-P6o"/>
+                            <constraint firstItem="nTt-FN-onG" firstAttribute="centerX" secondItem="3T7-P9-sm4" secondAttribute="centerX" id="gvM-yu-oWH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
